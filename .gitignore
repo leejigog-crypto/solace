@@ -1,0 +1,8 @@
+# Internal working notes (contain a private Figma link) — not for the public site
+FIGMA_HANDOFF.md
+
+# OS / editor clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+.claude/
