@@ -129,7 +129,9 @@
 
   function load(href) {
     if (!cache[href]) {
-      cache[href] = fetch(href, { credentials: 'same-origin' }).then(function (r) {
+      // 'no-cache' revalidates with the server (cheap ETag check) so a fresh deploy
+      // is never swapped in from a stale HTTP-cached copy of the page.
+      cache[href] = fetch(href, { credentials: 'same-origin', cache: 'no-cache' }).then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.text();
       });
