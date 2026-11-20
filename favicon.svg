@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- SOLACE mark: a low sun settling on the horizon. Flat, square, cream and black. -->
+  <rect width="64" height="64" fill="#FBF7EF"/>
+  <path d="M16 41a16 16 0 0 1 32 0z" fill="#000"/>
+  <rect x="8" y="44" width="48" height="3" fill="#000"/>
+</svg>

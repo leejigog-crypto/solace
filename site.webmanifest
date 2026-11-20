@@ -1,0 +1,12 @@
+{
+  "name": "SOLACE — Live Slow",
+  "short_name": "SOLACE",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#FBF7EF",
+  "theme_color": "#FBF7EF",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
